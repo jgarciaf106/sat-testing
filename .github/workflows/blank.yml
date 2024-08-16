@@ -3,7 +3,7 @@ name: Terraform GCP Deployment
 on:
   push:
     branches:
-      - main  # Change to your default branch
+      - gcp_ws
 
 jobs:
   terraform:
